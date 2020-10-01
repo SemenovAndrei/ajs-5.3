@@ -3,6 +3,8 @@ image: Ubuntu1804 # образ для сборки
 stack: node 12 # окружение
 
 branches:
+  except:
+    - /abc/
 
 cache: node_modules # кеширование
 
